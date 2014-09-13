@@ -14,12 +14,13 @@ body
 #home_container
 {
 	background-color:gray;
-	height:2000px;
+	height:auto;
 	width:1050px;
 	margin:auto;
 	color:white;
 	padding-top:20px;
 	opacity:0.8;
+	padding-bottom:20px;
 }
 #home_header
 {
