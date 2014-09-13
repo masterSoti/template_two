@@ -1,3 +1,16 @@
+html
+{
+	min-height: 100%;
+	min-width: 100%;
+	margin: 0 auto;
+}
+body
+{
+	background:url("images/binding_light.png") repeat center center fixed;
+	min-width:100%;
+	min-height:100%;
+	margin: 0 auto;
+}
 #home_container
 {
 	background-color:gray;
@@ -5,5 +18,17 @@
 	width:1050px;
 	margin:auto;
 	color:white;
-	text-align:center;
+	padding-top:20px;
+	opacity:0.8;
+}
+#home_header
+{
+	color:white;
+	text-align:left;
+	width:1000px;
+	margin:auto;
+}
+#home_header h3
+{
+	margin-top: -10px;
 }
