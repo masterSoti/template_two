@@ -35,7 +35,9 @@ body
 }
 #home_nav
 {
-	width:100%;
+	width:cover;
+	background-color:rgb(200, 200, 200);
+	margin:auto;
 }
 #home_nav td
 {
@@ -51,10 +53,6 @@ body
 {
 	background-color:rgb(150, 150, 150);
 	color:white;
-}
-#home_nav table
-{
-	background-color:rgb(200, 200, 200);
 }
 #home_slide_show
 {
