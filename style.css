@@ -55,15 +55,33 @@ body
 {
 	background-color:rgb(200, 200, 200);
 }
-#slide_show
+#home_slide_show
 {
 	height:500px;
 	width:1046px;
 	background-color:rgb(200, 200, 200);
-	margin:10 auto;
+	margin:-11 auto;
 }
-#slide_show img
+#home_slide_show img
 {
 	width:100%;
 	height:100%;
+}
+#home_slide_show h1
+{
+	text-align:center;
+	color:black;
+}
+#home_peek
+{
+	margin:10 auto;
+}
+#home_products_title
+{
+	background-color:rgb(200, 200, 200);
+	height:75px;
+	width:1050px;
+	line-height:75px;
+	color:black;
+	text-align:center;
 }
