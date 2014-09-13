@@ -1,6 +1,6 @@
-shtml
+html
 {
-	min-height: 100%;
+	max-height: 100%;
 	min-width: 100%;
 	margin: 0 auto;
 }
@@ -10,6 +10,8 @@ body
 	min-width:100%;
 	min-height:100%;
 	margin: 0 auto;
+	position:relative;
+	padding-bottom:315px;
 }
 #home_container
 {
@@ -99,8 +101,10 @@ body
 	height:300px;
 	width:100%;
 	background-color:rgb(200, 200, 200);
-	margin-top:10px;
 	color:black;
 	text-align:center;
 	padding-top:5px;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
