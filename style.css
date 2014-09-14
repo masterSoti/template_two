@@ -99,11 +99,13 @@ body
 {
 	float:right;
 	width:42px;
+	margin-right:50px;
 }
 .prev
 {
 	float:left;
 	width:60px;
+	margin-left:50px;
 }
 .rslides_here
 {

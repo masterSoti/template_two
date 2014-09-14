@@ -50,7 +50,6 @@ $(function(){
   		auto: true,             
   		speed: 500,           
   		timeout: 4000,          
-  		pager: true,
   		nav:true  
 	});
 });
