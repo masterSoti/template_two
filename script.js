@@ -6,7 +6,7 @@ $(document).ready(
 		$('#home_img_one').click(
 			function()
 			{
-				$('body, html').animate({scrollTop: '675px'}, 500);
+				$('body, html').animate({scrollTop: '725px'}, 500);
 			}
 		);
 	}
@@ -17,7 +17,7 @@ $(document).ready(
 		$('#home_img_two').click(
 			function()
 			{
-				$('body, html').animate({scrollTop: '1150px'}, 500);
+				$('body, html').animate({scrollTop: '1200px'}, 500);
 			}
 		);
 	}
@@ -28,7 +28,7 @@ $(document).ready(
 		$('#home_img_three').click(
 			function()
 			{
-				$('body, html').animate({scrollTop: '1575px'}, 500);
+				$('body, html').animate({scrollTop: '1625px'}, 500);
 			}
 		);
 	}
@@ -39,7 +39,7 @@ $(document).ready(
 		$('#home_img_four').click(
 			function()
 			{
-				$('body, html').animate({scrollTop: '2200px'}, 500);
+				$('body, html').animate({scrollTop: '2250px'}, 500);
 			}
 		);
 	}
@@ -50,7 +50,8 @@ $(function(){
   		auto: true,             
   		speed: 500,           
   		timeout: 4000,          
-  		pager: true  
+  		pager: true,
+  		nav:true  
 	});
 });
 //regular Java script
