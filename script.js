@@ -44,5 +44,13 @@ $(document).ready(
 		);
 	}
 );
+//rslide jquery
+$(function(){
+	$(".rslides").responsiveSlides({
+  		auto: true,             
+  		speed: 500,           
+  		timeout: 4000,          
+  		pager: true  
+	});
+});
 //regular Java script
-/**/
