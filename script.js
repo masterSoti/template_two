@@ -1,6 +1,18 @@
 //regular Jquery
-//the scroll functions
 $(document).ready(
+	function(){
+		$('.rslides ul img').clic(
+			function(){
+				var id = $(this).attr('id').split('-')[1];
+				console.log(id);
+				var distance = $('.home-'+ id).offset();
+				$('body, html').animate({scrollTop: distance.height}, 500);
+			}
+		);
+	}
+);
+//the scroll functions
+/*$(document).ready(
 	function()
 	{ 
 		$('#home_img_one').click(
@@ -44,6 +56,8 @@ $(document).ready(
 		);
 	}
 );
+*/
+//still have to make the pic like the one on google web store
 //rslide jquery
 $(function(){
 	$(".rslides").responsiveSlides({
@@ -53,4 +67,5 @@ $(function(){
   		nav:true  
 	});
 });
+
 //regular Java script

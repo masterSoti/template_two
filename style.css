@@ -19,14 +19,14 @@ body
 	height:auto;
 	width:1050px;
 	margin:auto;
-	color:white;
+	color:rgb(139, 0, 0);
 	padding-top:20px;
 	opacity:0.8;
 	padding-bottom:6px;
 }
 #home_header
 {
-	color:white;
+	color:rgb(139, 0, 0);
 	text-align:left;
 	width:1000px;
 	margin:auto;
@@ -37,7 +37,7 @@ body
 }
 #home_nav
 {
-	width:cover;
+	width:rgb(139, 0, 0);
 	background-color:rgb(200, 200, 200);
 	margin:auto;
 }
@@ -47,7 +47,7 @@ body
 	text-align:center;
 	background-color:rgb(200, 200, 200);
 	height:42px;
-	color:black;
+	color:rgb(139, 0, 0);
 	margin:0 auto;
 	cursor:pointer;
 }
@@ -78,7 +78,7 @@ body
 	width:235px;
 	display:inline-block;
 	height:50px;
-	color:white;
+	color:rgb(139, 0, 0);
 	font-size:15px;
 	margin-top:-16px;
 	text-align:center;
@@ -93,7 +93,7 @@ body
 	line-height:50px;
 	text-align:center;
 	text-decoration:none;
-	color:white;
+	color:rgb(139, 0, 0);
 }
 .next
 {
@@ -114,7 +114,7 @@ body
 #home_slide_show h1
 {
 	text-align:center;
-	color:black;
+	color:rgb(139, 0, 0);
 }
 #home_peek
 {
@@ -127,7 +127,7 @@ body
 	height:75px;
 	width:1050px;
 	line-height:75px;
-	color:black;
+	color:rgb(139, 0, 0);
 	text-align:center;
 }
 #home_products
