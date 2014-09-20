@@ -8,17 +8,17 @@ $(function(){
 	});
 });
 //regular Jquery
-/*$(document).ready(
+$(document).ready(
 	function(){
-		$('.rslides ul img').clic(
+		$('.rslides ul img').click(
 			function(){
 				var id = $(this).attr('id').split('-')[1];
 				var distance = $('.home-'+ id).offset();
-				$('body, html').animate({scrollTop: distance.height}, 500);
+				$('html').animate({scrollTop: distance.height}, 500);
 			}
 		);
 	}
-);*/
+);/*
 //the scroll functions
 $(document).ready(
 	function()
@@ -63,7 +63,7 @@ $(document).ready(
 			}
 		);
 	}
-);
+);*/ 
 //still have to make the pic like the one on google web store
 $(document).ready(
 	function()
