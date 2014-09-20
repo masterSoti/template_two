@@ -23,7 +23,16 @@ $(document).ready(
 $(document).ready(
 	function()
 	{
-		$('#home_fade_in').slideIn();
+		$('.home_products').hover(
+			function(){
+				var id = $(this).attr('id').split('-')[1];
+				$('.slideUp-'+id).fadeIn(100);
+			},
+			function(){
+				var id = $(this).attr('id').split('-')[1];
+				$('.slideUp-'+id).fadeOut(100);				
+			}
+		);
 	}
 );
 //regular Java script

@@ -87,25 +87,27 @@ body
 }
 .rslides_nav
 {
-	z-index:2;
-	background-color:gray;
-	height:50px;
-	line-height:50px;
+	z-index:0;
+	background-color:rgb(150, 150, 150);
+	height:60px;
+	line-height:60px;
 	text-align:center;
 	text-decoration:none;
 	color:rgb(139, 0, 0);
+	margin-top:-47px;
+	width:115px;
 }
 .next
 {
 	float:right;
-	width:42px;
-	margin-right:50px;
 }
 .prev
 {
 	float:left;
-	width:60px;
-	margin-left:50px;
+}
+.rslides_nav:hover
+{
+	background-color:white;
 }
 .rslides_here
 {
@@ -130,7 +132,7 @@ body
 	color:rgb(139, 0, 0);
 	text-align:center;
 }
-#home_products
+.home_products
 {
 	width:334px;
 	height:325px;
@@ -138,12 +140,7 @@ body
 	margin-top:10px;
 	margin-left:10px;
 	display:inline-block;
-}
-#home_products img
-{
-	width:100%;
-	height:100%;
-	cursor:pointer;	
+	cursor:pointer;
 }
 #home_footer
 {
@@ -156,6 +153,24 @@ body
 	position:absolute;
 	bottom:0;
 	left:0;
+}
+#home_fade_in h1
+{
+	color:white;
+	margin:auto;
+	font-size:40px;
+}
+#home_fade_in
+{
+	z-index:1;
+}
+#slideUp
+{
+	background-color:rgba(50, 50, 50, 0.9);
+	height:300px;
+	width:100%;
+	margin-top:25px;
+	display:none;
 }
 /*==============================rslides=========================================================================================*/
 .rslides {
