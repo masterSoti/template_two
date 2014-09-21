@@ -23,6 +23,7 @@ body
 	padding-top:20px;
 	opacity:0.8;
 	padding-bottom:6px;
+	display: inline-block;
 }
 #home_header
 {
@@ -171,6 +172,23 @@ body
 	width:100%;
 	margin-top:25px;
 	display:none;
+}
+#scroll_up
+{
+	float:right;
+	display:inline-block;
+	width:100px;
+	color:rgb(139, 0, 0);
+	background-color:rgb(200, 200, 200);
+	position:fixed;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	cursor:pointer;
+}
+#scroll_up:hover
+{
+	background-color:white;
 }
 /*==============================rslides=========================================================================================*/
 .rslides {

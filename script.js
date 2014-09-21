@@ -7,7 +7,7 @@ $(function(){
   		nav:true  
 	});
 });
-//the scroll function
+//the scroll function for slide Show
 $(document).ready(
 	function(){
 		$('.rslides ul img').click(
@@ -15,6 +15,16 @@ $(document).ready(
 				var id = $(this).attr('id').split('-')[1];
 				var distance = $('.home-'+ id).offset();
 				$('html, body').animate({scrollTop: distance.top}, 500);
+			}
+		);
+	}
+);
+//the scrolltop button function
+$(document).ready(
+	function(){
+		$('#scroll_up').click(
+			function(){
+				$('html, body').animate({scrollTop: '0px'}, 500);
 			}
 		);
 	}
