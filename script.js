@@ -36,11 +36,11 @@ $(document).ready(
 		$('.home_products').hover(
 			function(){
 				var id = $(this).attr('id').split('-')[1];
-				$('.slideUp-'+id).fadeIn(100);
+				$('.slideUp-'+id).fadeIn(300);
 			},
 			function(){
 				var id = $(this).attr('id').split('-')[1];
-				$('.slideUp-'+id).fadeOut(100);				
+				$('.slideUp-'+id).fadeOut(300);				
 			}
 		);
 	}
