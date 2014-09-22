@@ -14,7 +14,7 @@ $(document).ready(
 			function(){
 				var id = $(this).attr('id').split('-')[1];
 				var distance = $('.home-'+ id).offset();
-				$('html, body').animate({scrollTop: distance.top}, 500);
+				$('html, body').animate({scrollTop: distance.top}, 1000);
 			}
 		);
 	}
@@ -24,7 +24,7 @@ $(document).ready(
 	function(){
 		$('#scroll_up').click(
 			function(){
-				$('html, body').animate({scrollTop: '0px'}, 500);
+				$('html, body').animate({scrollTop: '0px'}, 1000);
 			}
 		);
 	}
