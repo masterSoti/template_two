@@ -29,6 +29,13 @@ $(document).ready(
 		);
 	}
 );
+//the scrolltop button to be fixed only after a certain offest function
+function(){
+	var offset = $('#scroll_up').offset();
+	if(offset.top > '500px'){
+		$('#scroll_up').css("position", "fixed");
+	}
+}
 //still have to make the pic like the one on google web store
 $(document).ready(
 	function()
