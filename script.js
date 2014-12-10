@@ -1,5 +1,4 @@
 //rslide jquery
-alert('hello');
 $(function(){
 	$(".rslides").responsiveSlides({
   		auto: true,
