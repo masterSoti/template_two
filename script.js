@@ -1,10 +1,11 @@
 //rslide jquery
+alert('hello');
 $(function(){
 	$(".rslides").responsiveSlides({
-  		auto: true,             
-  		speed: 500,           
-  		timeout: 4000,          
-  		nav:true  
+  		auto: true,
+  		speed: 500,
+  		timeout: 4000,
+  		nav:true
 	});
 });
 //the scroll function for slide Show
@@ -42,7 +43,7 @@ $(document).ready(
 			},
 			function(){
 				var id = $(this).attr('id').split('-')[1];
-				$('.slideUp-'+id).fadeOut(300);				
+				$('.slideUp-'+id).fadeOut(300);
 			}
 		);
 	}
